@@ -1,0 +1,19 @@
+[package]
+name = "graphql-introspection-test"
+version = "0.1.0"
+authors = ["Roman Useinov <roman.useinov@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-graphql = "=1.15.5"
+async-graphql-actix-web = "1.14.14"
+bson = { version = "1.0.0", features = ["u2i"] }
+actix-web = "2.0.0"
+actix-rt = "1.0.0"
+actix-cors = "0.2.0"
+thiserror = "1.0"
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+futures = "0.3.4"
